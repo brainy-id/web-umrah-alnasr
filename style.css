@@ -1,20 +1,22 @@
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
+
 
 .wrapper {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    width: 1440px;
-    height: 6884px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
     display: flex;
-    width: 1240px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     gap: 175px;
@@ -418,6 +420,7 @@ section#package {
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 4px 20px 0px rgba(29, 165, 153, 0.15);
+    position: relative;
 }
 
 .soon {
